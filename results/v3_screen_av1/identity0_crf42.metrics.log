@@ -1,0 +1,35 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'identity0_crf42.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomav01iso2mp41
+    encoder         : Lavf63.9.100
+  Duration: 00:00:00.53, start: 0.000000, bitrate: 4390 kb/s
+  Stream #0:0[0x1](und): Video: av1 (libdav1d) (Main) (av01 / 0x31307661), yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 4373 kb/s, 120 fps, 120 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.18.101 libsvtav1
+[in#1/rawvideo @ 000001bcefd9a880] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#1/rawvideo @ 000001bcefd9a880] Estimating duration from bitrate, this may be inaccurate
+Input #1, rawvideo, from 'reference.yuv':
+  Duration: 00:00:00.53, start: 0.000000, bitrate: 2985985 kb/s
+  Stream #1:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 (libdav1d) -> settb:default
+  Stream #1:0 (rawvideo) -> settb:default
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+  libvmaf:default -> Stream #0:1 (wrapped_avframe)
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 120 fps, 120 tbn (default)
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+  Stream #0:1: Video: wrapped_avframe, yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 120 fps, 120 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+frame=   19 fps=0.0 q=-0.0 q=-0.0 size=N/A time=00:00:00.15 bitrate=N/A speed=0.307x elapsed=0:00:00.51    frame=   33 fps= 32 q=-0.0 q=-0.0 size=N/A time=00:00:00.27 bitrate=N/A speed=0.269x elapsed=0:00:01.02    frame=   49 fps= 32 q=-0.0 q=-0.0 size=N/A time=00:00:00.40 bitrate=N/A speed=0.265x elapsed=0:00:01.54    [Parsed_libvmaf_7 @ 000001bcefdd75c0] VMAF score: 76.841602
+[Parsed_libvmaf_7 @ 000001bcefdd75c0] VMAF score: 75.328395
+[Parsed_psnr_6 @ 000001bcefdd7340] PSNR y:38.438084 u:39.030819 v:41.246275 average:38.898684 min:38.476838 max:39.238955
+[out#0/null @ 000001bcefd14840] video:53KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   64 fps= 28 q=-0.0 Lq=-0.0 size=N/A time=00:00:00.53 bitrate=N/A speed=0.236x elapsed=0:00:02.25    

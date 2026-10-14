@@ -1,0 +1,16 @@
+[in#0/rawvideo @ 00000275773b75c0] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:02.56, start: 0.000000, bitrate: 1244160 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 1244160 kb/s, 50 tbr, 50 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Output #0, mp4, to 'sharp1_crf34.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), yuv420p(tv, progressive), 1920x1080, q=2-31, 50 fps, 12800 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libx265
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=37.8 size=       0KiB time=-00:00:00.02 bitrate=N/A speed=N/A elapsed=0:00:00.51    frame=   13 fps= 13 q=44.1 size=       0KiB time=00:00:00.22 bitrate=   1.6kbits/s speed=0.212x elapsed=0:00:01.03    frame=   26 fps= 17 q=38.1 size=     256KiB time=00:00:00.48 bitrate=4369.8kbits/s speed=0.31x elapsed=0:00:01.54    frame=   38 fps= 18 q=38.1 size=     512KiB time=00:00:00.72 bitrate=5825.9kbits/s speed=0.349x elapsed=0:00:02.06    frame=   52 fps= 20 q=44.0 size=     768KiB time=00:00:01.00 bitrate=6291.8kbits/s speed=0.388x elapsed=0:00:02.57    frame=   65 fps= 21 q=44.0 size=     768KiB time=00:00:01.26 bitrate=4993.5kbits/s speed=0.408x elapsed=0:00:03.09    frame=   77 fps= 21 q=44.0 size=    1024KiB time=00:00:01.50 bitrate=5592.6kbits/s speed=0.416x elapsed=0:00:03.60    frame=   90 fps= 22 q=37.9 size=    1280KiB time=00:00:01.76 bitrate=5958.0kbits/s speed=0.427x elapsed=0:00:04.12    frame=  104 fps= 22 q=44.0 size=    1536KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:04.63    frame=  117 fps= 23 q=43.9 size=    1536KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:05.16    [out#0/mp4 @ 00000275773d3b80] video:1879KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 0.257823%
+frame=  128 fps= 23 q=44.0 Lsize=    1884KiB time=00:00:02.52 bitrate=6125.5kbits/s speed=0.456x elapsed=0:00:05.52    

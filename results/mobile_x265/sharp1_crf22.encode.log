@@ -1,0 +1,16 @@
+[in#0/rawvideo @ 0000018ad0856c40] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:10.01, start: 0.000000, bitrate: 36458 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 352x288, 36458 kb/s, 29.97 tbr, 29.97 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Output #0, mp4, to 'sharp1_crf22.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), yuv420p(tv, progressive), 352x288, q=2-31, 29.97 fps, 30k tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libx265
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   28 fps=0.0 q=31.0 size=       0KiB time=00:00:00.86 bitrate=   0.4kbits/s speed=1.68x elapsed=0:00:00.51    frame=   62 fps= 60 q=23.5 size=     256KiB time=00:00:02.00 bitrate=1047.7kbits/s speed=1.92x elapsed=0:00:01.04    frame=   90 fps= 58 q=23.6 size=     256KiB time=00:00:02.93 bitrate= 714.3kbits/s speed=1.89x elapsed=0:00:01.55    frame=  116 fps= 56 q=31.0 size=     512KiB time=00:00:03.80 bitrate=1102.8kbits/s speed=1.84x elapsed=0:00:02.06    frame=  146 fps= 57 q=23.3 size=     768KiB time=00:00:04.80 bitrate=1309.5kbits/s speed=1.86x elapsed=0:00:02.57    frame=  182 fps= 59 q=22.7 size=     768KiB time=00:00:06.00 bitrate=1047.6kbits/s speed=1.94x elapsed=0:00:03.10    frame=  206 fps= 57 q=30.6 size=    1024KiB time=00:00:06.80 bitrate=1232.4kbits/s speed=1.88x elapsed=0:00:03.61    frame=  236 fps= 57 q=30.7 size=    1024KiB time=00:00:07.80 bitrate=1074.4kbits/s speed=1.89x elapsed=0:00:04.12    frame=  288 fps= 62 q=30.5 size=    1280KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:04.64    [out#0/mp4 @ 0000018ad0873040] video:1500KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 0.463670%
+frame=  300 fps= 64 q=30.6 Lsize=    1507KiB time=00:00:09.94 bitrate=1241.9kbits/s speed=2.11x elapsed=0:00:04.71    

@@ -1,0 +1,13 @@
+{
+  "profile": "legacy:16",
+  "crf": 26,
+  "bitrate": 3421905.0,
+  "psnr_y": 37.917864,
+  "psnr": 38.450644,
+  "vmaf": 71.106479,
+  "vmaf_neg": 69.521246,
+  "encode_seconds": 1.4856332000053953,
+  "preprocess_compute_seconds": 5.73599,
+  "preprocess_wall_seconds": 5.901512800017372,
+  "frames": 64
+}

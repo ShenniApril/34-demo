@@ -1,0 +1,35 @@
+[in#0/rawvideo @ 0000019e12945cc0] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#0/rawvideo @ 0000019e12945cc0] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:00.53, start: 0.000000, bitrate: 2985985 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> av1 (libsvtav1))
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.2.0-180-g44e99b787
+Svt[info]: SVT [build]  :	GCC 16.2.0	 64 bit
+Svt[info]: LIB Build date: Oct 11 2026 12:00:15
+Svt[info]: -------------------------------------------
+Svt[info]: Level of Parallelism: 4
+Svt[info]: Number of PPCS 59
+Svt[info]: [asm level on system : up to avx2]
+Svt[info]: [asm level selected : up to avx2]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier Main	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 1920 / 1080 / 120 / 1
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 8 / PSNR / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 120 / 16 / key frame
+Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 36.00 
+Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+Svt[info]: SVT [config]: QP scale compress strength 					: 0
+Svt[info]: -------------------------------------------
+Output #0, mp4, to 'legacy16_crf36.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: av1 (av01 / 0x31307661), yuv420p(tv, progressive), 1920x1080, q=2-31, 120 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libsvtav1
+frame=    1 fps=0.0 q=14.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.51    [out#0/mp4 @ 0000019e12962380] video:422KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.237627%
+frame=   64 fps=0.0 q=36.0 Lsize=     423KiB time=00:00:00.52 bitrate=6607.8kbits/s speed=0.639x elapsed=0:00:00.82    

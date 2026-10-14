@@ -1,0 +1,42 @@
+[
+  {
+    "point": 22,
+    "preprocess_crf": 22,
+    "bytes": 597196800,
+    "candidate_sha256": "7ee76bf152d26146c4cb290e83c239170eb84dfa9660640d447ab7da7ddff6cf",
+    "original_processed_sha256": "7ee76bf152d26146c4cb290e83c239170eb84dfa9660640d447ab7da7ddff6cf",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_holdout_x264\\balanced2_crf22.row.json",
+    "original_movie_sha256": "ece2161268d7e4fb960eb902a73ce663bca4b519303324d659ef9785c4b95bce"
+  },
+  {
+    "point": 26,
+    "preprocess_crf": 26,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_holdout_x264\\balanced2_crf26.row.json",
+    "original_movie_sha256": "e53e38b01e1667357f5aec5d81c891998f11e0fdf36133bb0e0a453c1206c4ec"
+  },
+  {
+    "point": 30,
+    "preprocess_crf": 30,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_holdout_x264\\balanced2_crf30.row.json",
+    "original_movie_sha256": "38041424674effc73ca82ff917b5d3c0496ca5448ae6501dbb6b4cb583bd6c75"
+  },
+  {
+    "point": 34,
+    "preprocess_crf": 34,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_holdout_x264\\balanced2_crf34.row.json",
+    "original_movie_sha256": "2a838d1fe49caf04cb494cab9e6dda5e5408e0a125fc22ddb10e7f667587da1f"
+  }
+]

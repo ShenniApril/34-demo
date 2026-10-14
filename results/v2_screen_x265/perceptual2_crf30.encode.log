@@ -1,0 +1,17 @@
+[in#0/rawvideo @ 0000026663dd5dc0] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#0/rawvideo @ 0000026663dd5dc0] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:00.53, start: 0.000000, bitrate: 2985985 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Output #0, mp4, to 'perceptual2_crf30.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), yuv420p(tv, progressive), 1920x1080, q=2-31, 120 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libx265
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   10 fps=0.0 q=41.2 size=       0KiB time=00:00:00.06 bitrate=   5.3kbits/s speed=0.126x elapsed=0:00:00.52    frame=   35 fps= 34 q=41.6 size=       0KiB time=00:00:00.27 bitrate=   1.3kbits/s speed=0.267x elapsed=0:00:01.03    [out#0/mp4 @ 0000026663df1700] video:128KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 3.055067%
+frame=   64 fps= 42 q=41.7 Lsize=     132KiB time=00:00:00.51 bitrate=2097.1kbits/s speed=0.339x elapsed=0:00:01.52    

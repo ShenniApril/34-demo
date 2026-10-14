@@ -1,0 +1,34 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'identity0_crf30.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomav01iso2mp41
+    encoder         : Lavf63.9.100
+  Duration: 00:00:00.27, start: 0.000000, bitrate: 795 kb/s
+  Stream #0:0[0x1](und): Video: av1 (libdav1d) (Main) (av01 / 0x31307661), yuv420p(tv, progressive), 352x288 [SAR 1:1 DAR 11:9], 769 kb/s, 29.97 fps, 29.97 tbr, 30k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.18.101 libsvtav1
+[in#1/rawvideo @ 0000020d5021af40] Estimating duration from bitrate, this may be inaccurate
+Input #1, rawvideo, from 'reference.yuv':
+  Duration: 00:00:00.27, start: 0.000000, bitrate: 36458 kb/s
+  Stream #1:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 352x288, 36458 kb/s, 29.97 tbr, 29.97 tbn
+Stream mapping:
+  Stream #0:0 (libdav1d) -> settb:default
+  Stream #1:0 (rawvideo) -> settb:default
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+  libvmaf:default -> Stream #0:1 (wrapped_avframe)
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, progressive), 352x288 [SAR 1:1 DAR 11:9], q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn (default)
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+  Stream #0:1: Video: wrapped_avframe, yuv420p(tv, progressive), 352x288 [SAR 1:1 DAR 11:9], q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+[Parsed_libvmaf_7 @ 0000020d526060c0] VMAF score: 95.991732
+[Parsed_libvmaf_7 @ 0000020d526060c0] VMAF score: 94.103486
+[Parsed_psnr_6 @ 0000020d52605cc0] PSNR y:39.111787 u:44.953706 v:46.595265 average:40.420442 min:39.273368 max:42.572473
+[out#0/null @ 0000020d50257140] video:7KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    8 fps=0.0 q=-0.0 Lq=-0.0 size=N/A time=00:00:00.26 bitrate=N/A speed=5.55x elapsed=0:00:00.04    

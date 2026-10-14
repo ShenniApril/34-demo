@@ -1,0 +1,13 @@
+{
+  "profile": "hybrid:2",
+  "crf": 34,
+  "bitrate": 1100520.0,
+  "psnr_y": 35.719838,
+  "psnr": 36.612158,
+  "vmaf": 47.661065,
+  "vmaf_neg": 45.918253,
+  "encode_seconds": 1.509547299996484,
+  "preprocess_compute_seconds": 0.689296,
+  "preprocess_wall_seconds": 0.8417790000094101,
+  "frames": 64
+}

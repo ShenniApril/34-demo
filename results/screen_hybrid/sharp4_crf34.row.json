@@ -1,0 +1,13 @@
+{
+  "profile": "sharp:4",
+  "crf": 34,
+  "bitrate": 1080135.0,
+  "psnr_y": 35.716066,
+  "psnr": 36.606101,
+  "vmaf": 47.55669,
+  "vmaf_neg": 45.815592,
+  "encode_seconds": 1.2489635999954771,
+  "preprocess_compute_seconds": 0.296732,
+  "preprocess_wall_seconds": 0.43941720001748763,
+  "frames": 64
+}

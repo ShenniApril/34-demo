@@ -1,0 +1,16 @@
+[in#0/rawvideo @ 00000249810c6340] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#0/rawvideo @ 00000249810c6340] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:00.53, start: 0.000000, bitrate: 2985985 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> vvc (libvvenc))
+[libvvenc @ 000002498116bc00] libvvenc version: 1.15.0-dev
+Output #0, mp4, to 'hybrid2_crf37.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: vvc (vvc1 / 0x31637676), yuv420p10le(tv, progressive), 1920x1080, q=2-31, 120 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libvvenc
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.52    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:01.02    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:01.54    frame=   32 fps= 15 q=-0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.06    frame=   35 fps= 14 q=-0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.58    frame=   41 fps= 13 q=-0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:03.10    [out#0/mp4 @ 00000249810e3a80] video:70KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 2.690514%
+frame=   64 fps= 18 q=-0.0 Lsize=      72KiB time=00:00:00.48 bitrate=1221.2kbits/s speed=0.138x elapsed=0:00:03.51    

@@ -1,0 +1,16 @@
+{
+  "profile": "smooth:4",
+  "crf": 22,
+  "bitrate": 19208430.0,
+  "psnr_y": 39.672023,
+  "psnr": 39.909894,
+  "vmaf": 89.767905,
+  "vmaf_neg": 88.358919,
+  "encode_seconds": 14.988953399995808,
+  "preprocess_compute_seconds": 0.991387,
+  "preprocess_wall_seconds": 1.1423765999788884,
+  "frames": 64,
+  "quality_mode": "qp",
+  "quality_value": 22,
+  "preprocess_crf": 28
+}

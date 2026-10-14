@@ -1,0 +1,35 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'identity0_crf34.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf63.9.100
+  Duration: 00:00:10.01, start: 0.000000, bitrate: 214 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv, progressive), 352x288, 208 kb/s, 29.97 fps, 29.97 tbr, 30k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.18.101 libx265
+[in#1/rawvideo @ 000001eb8e237080] Estimating duration from bitrate, this may be inaccurate
+Input #1, rawvideo, from 'reference.yuv':
+  Duration: 00:00:10.01, start: 0.000000, bitrate: 36458 kb/s
+  Stream #1:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 352x288, 36458 kb/s, 29.97 tbr, 29.97 tbn
+Stream mapping:
+  Stream #0:0 (hevc) -> settb:default
+  Stream #1:0 (rawvideo) -> settb:default
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+  libvmaf:default -> Stream #0:1 (wrapped_avframe)
+[graph 0 input from stream 1:0 @ 000001eb90329680] Input has no chroma sample location, assuming left
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, progressive), 352x288, q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn (default)
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+  Stream #0:1: Video: wrapped_avframe, yuv420p(tv, progressive), 352x288, q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+frame=  152 fps=0.0 q=-0.0 q=-0.0 size=N/A time=00:00:05.07 bitrate=N/A speed=  10x elapsed=0:00:00.50    [Parsed_libvmaf_7 @ 000001eb90329980] VMAF score: 82.566116
+[Parsed_libvmaf_7 @ 000001eb90329980] VMAF score: 80.378892
+[Parsed_psnr_6 @ 000001eb90329180] PSNR y:27.475135 u:33.597017 v:33.130248 average:28.708928 min:26.647478 max:31.856029
+[out#0/null @ 000001eb8e1b4ec0] video:248KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  300 fps=0.0 q=-0.0 Lq=-0.0 size=N/A time=00:00:10.01 bitrate=N/A speed=10.2x elapsed=0:00:00.98    

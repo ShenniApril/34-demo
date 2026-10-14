@@ -1,0 +1,42 @@
+[
+  {
+    "point": 24,
+    "preprocess_crf": 28,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v4_holdout_av1\\context2_crf24.row.json",
+    "original_movie_sha256": "c1b0e44ef53ea2fc25ed707ae164ea62f446cf553cfbcedd5176fef664036c55"
+  },
+  {
+    "point": 30,
+    "preprocess_crf": 28,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v4_holdout_av1\\context2_crf30.row.json",
+    "original_movie_sha256": "f524717286f1951b1c92a8dc47a72caa406f829569814f7ca05e2dfa10b29b5d"
+  },
+  {
+    "point": 36,
+    "preprocess_crf": 28,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v4_holdout_av1\\context2_crf36.row.json",
+    "original_movie_sha256": "28e2771925d2a553e02af6ccc424f7d42282fdb7891627eef89981e72a264d53"
+  },
+  {
+    "point": 42,
+    "preprocess_crf": 28,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v4_holdout_av1\\context2_crf42.row.json",
+    "original_movie_sha256": "878cbea40e0e89bb333b2b52cb93457bc0708457c215df8520639b98d32a2986"
+  }
+]

@@ -1,0 +1,34 @@
+[in#0/rawvideo @ 000001e442611000] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'reference.yuv':
+  Duration: 00:00:00.27, start: 0.000000, bitrate: 36458 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 352x288, 36458 kb/s, 29.97 tbr, 29.97 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> av1 (libsvtav1))
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.2.0-180-g44e99b787
+Svt[info]: SVT [build]  :	GCC 16.2.0	 64 bit
+Svt[info]: LIB Build date: Oct 11 2026 12:00:15
+Svt[info]: -------------------------------------------
+Svt[info]: Level of Parallelism: 4
+Svt[info]: Number of PPCS 107
+Svt[info]: [asm level on system : up to avx2]
+Svt[info]: [asm level selected : up to avx2]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier Main	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 352 / 288 / 30000 / 1001
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 8 / PSNR / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 120 / 32 / key frame
+Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 24.00 
+Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+Svt[info]: SVT [config]: QP scale compress strength 					: 0
+Svt[info]: -------------------------------------------
+Output #0, mp4, to 'identity0_crf24.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: av1 (av01 / 0x31307661), yuv420p(tv, progressive), 352x288, q=2-31, 29.97 fps, 30k tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libsvtav1
+[out#0/mp4 @ 000001e442598040] video:34KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 2.489566%
+frame=    8 fps=0.0 q=24.0 Lsize=      35KiB time=00:00:00.23 bitrate=1211.2kbits/s speed= 1.5x elapsed=0:00:00.15    

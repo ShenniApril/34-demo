@@ -1,0 +1,42 @@
+[
+  {
+    "point": 22,
+    "preprocess_crf": 28,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v4_holdout_vvc\\context2_qp22.row.json",
+    "original_movie_sha256": "7c4369d5b0ce6e42436e35f3cdd78263eb046f8259ba3835477ca3e4f8b929b4"
+  },
+  {
+    "point": 27,
+    "preprocess_crf": 28,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v4_holdout_vvc\\context2_qp27.row.json",
+    "original_movie_sha256": "84c06b944fb1c60a36724e88e2adfbfe709c1e925ac2e5d566218504e6f8c50e"
+  },
+  {
+    "point": 32,
+    "preprocess_crf": 28,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v4_holdout_vvc\\context2_qp32.row.json",
+    "original_movie_sha256": "0b74da6f8d73dbdbfd692605138149b5d5d7610c6405f1c5f226230045191650"
+  },
+  {
+    "point": 37,
+    "preprocess_crf": 28,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v4_holdout_vvc\\context2_qp37.row.json",
+    "original_movie_sha256": "e1a2319791f8476c10de2c2200a20e5a31ad9ef197060de4f639795cc63ae5bc"
+  }
+]

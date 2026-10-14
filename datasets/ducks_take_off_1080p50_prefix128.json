@@ -1,0 +1,15 @@
+{
+  "source_url": "https://media.xiph.org/video/derf/y4m/ducks_take_off_1080p50.y4m",
+  "source_page": "https://media.xiph.org/video/derf/",
+  "header": "YUV4MPEG2 W1920 H1080 F50:1 Ip A1:1",
+  "width": 1920,
+  "height": 1080,
+  "fps_rational": "50:1",
+  "frames": 128,
+  "start_frame": 0,
+  "pix_fmt": "yuv420p",
+  "sha256": "7d85530a2d4c51a673eac6d6a116357ae1c6a32496acd26b2ccd86d4587fff5c",
+  "http_status": 206,
+  "extraction": "First 128 complete consecutive original frames; strip Y4M frame markers only, no resampling. Not the complete source sequence.",
+  "license_reference": "https://media.xiph.org/video/derf/vqeg.its.bldrdoc.gov/HDTV/SVT_MultiFormat/SVT_MultiFormat_v10.pdf"
+}

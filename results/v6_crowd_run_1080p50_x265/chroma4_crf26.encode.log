@@ -1,0 +1,16 @@
+[in#0/rawvideo @ 000001dd057757c0] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:02.56, start: 0.000000, bitrate: 1244160 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 1244160 kb/s, 50 tbr, 50 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Output #0, mp4, to 'chroma4_crf26.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), yuv420p(tv, progressive), 1920x1080, q=2-31, 50 fps, 12800 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libx265
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.50    frame=    7 fps=6.7 q=33.9 size=     512KiB time=00:00:00.10 bitrate=41946.6kbits/s speed=0.0963x elapsed=0:00:01.03    frame=   14 fps=9.0 q=29.9 size=     768KiB time=00:00:00.24 bitrate=26215.9kbits/s speed=0.154x elapsed=0:00:01.55    frame=   22 fps= 11 q=29.9 size=    1024KiB time=00:00:00.40 bitrate=20972.4kbits/s speed=0.194x elapsed=0:00:02.05    frame=   29 fps= 11 q=36.0 size=    1536KiB time=00:00:00.54 bitrate=23302.3kbits/s speed=0.21x elapsed=0:00:02.57    frame=   37 fps= 12 q=36.1 size=    1792KiB time=00:00:00.70 bitrate=20972.0kbits/s speed=0.226x elapsed=0:00:03.09    frame=   44 fps= 12 q=36.2 size=    2048KiB time=00:00:00.84 bitrate=19973.3kbits/s speed=0.233x elapsed=0:00:03.60    frame=   51 fps= 12 q=33.7 size=    2560KiB time=00:00:00.98 bitrate=21399.9kbits/s speed=0.238x elapsed=0:00:04.12    frame=   58 fps= 13 q=29.8 size=    2816KiB time=00:00:01.12 bitrate=20597.3kbits/s speed=0.242x elapsed=0:00:04.63    frame=   66 fps= 13 q=29.8 size=    3072KiB time=00:00:01.28 bitrate=19661.1kbits/s speed=0.248x elapsed=0:00:05.15    frame=   73 fps= 13 q=36.1 size=    3584KiB time=00:00:01.42 bitrate=20676.4kbits/s speed=0.25x elapsed=0:00:05.67    frame=   81 fps= 13 q=36.1 size=    3840KiB time=00:00:01.58 bitrate=19909.9kbits/s speed=0.255x elapsed=0:00:06.19    frame=   88 fps= 13 q=36.1 size=    4352KiB time=00:00:01.72 bitrate=20727.9kbits/s speed=0.257x elapsed=0:00:06.70    frame=   95 fps= 13 q=33.3 size=    4608KiB time=00:00:01.86 bitrate=20295.2kbits/s speed=0.258x elapsed=0:00:07.21    frame=  103 fps= 13 q=33.7 size=    4864KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:07.73    frame=  110 fps= 13 q=30.2 size=    5120KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:08.24    frame=  117 fps= 13 q=35.9 size=    5632KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:08.77    frame=  126 fps= 14 q=33.4 size=    5888KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:09.27    [out#0/mp4 @ 000001dd05792c40] video:6225KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 0.078345%
+frame=  128 fps= 14 q=35.8 Lsize=    6230KiB time=00:00:02.52 bitrate=20251.9kbits/s speed=0.27x elapsed=0:00:09.32    

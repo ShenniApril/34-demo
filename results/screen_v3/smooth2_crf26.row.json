@@ -1,0 +1,13 @@
+{
+  "profile": "smooth:2",
+  "crf": 26,
+  "bitrate": 3532620.0,
+  "psnr_y": 37.919868,
+  "psnr": 38.447734,
+  "vmaf": 71.763274,
+  "vmaf_neg": 70.025828,
+  "encode_seconds": 1.5033884000149556,
+  "preprocess_compute_seconds": 5.05546,
+  "preprocess_wall_seconds": 5.229273200005991,
+  "frames": 64
+}

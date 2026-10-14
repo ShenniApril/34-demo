@@ -1,0 +1,17 @@
+[in#0/rawvideo @ 00000260e78efb00] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#0/rawvideo @ 00000260e78efb00] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:01.60, start: 0.000000, bitrate: 2985984 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Output #0, mp4, to 'context2_crf34.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), yuv420p(tv, progressive), 1920x1080, q=2-31, 120 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libx265
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    5 fps=0.0 q=45.8 size=       0KiB time=00:00:00.02 bitrate=  14.1kbits/s speed=0.0484x elapsed=0:00:00.51    frame=   26 fps= 25 q=45.9 size=       0KiB time=00:00:00.20 bitrate=   1.8kbits/s speed=0.195x elapsed=0:00:01.02    frame=   50 fps= 32 q=45.8 size=       0KiB time=00:00:00.40 bitrate=   0.9kbits/s speed=0.259x elapsed=0:00:01.54    frame=   71 fps= 35 q=45.9 size=       0KiB time=00:00:00.57 bitrate=   0.6kbits/s speed=0.28x elapsed=0:00:02.05    frame=   95 fps= 37 q=45.6 size=       0KiB time=00:00:00.77 bitrate=   0.5kbits/s speed=0.301x elapsed=0:00:02.57    frame=  110 fps= 36 q=45.5 size=       0KiB time=00:00:00.90 bitrate=   0.4kbits/s speed=0.292x elapsed=0:00:03.08    frame=  122 fps= 34 q=41.8 size=       0KiB time=00:00:01.00 bitrate=   0.4kbits/s speed=0.277x elapsed=0:00:03.60    frame=  146 fps= 35 q=45.7 size=       0KiB time=00:00:01.20 bitrate=   0.3kbits/s speed=0.291x elapsed=0:00:04.12    frame=  166 fps= 36 q=45.5 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:04.64    [out#0/mp4 @ 00000260e7873800] video:226KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 2.375245%
+frame=  192 fps= 37 q=45.5 Lsize=     231KiB time=00:00:01.58 bitrate=1197.5kbits/s speed=0.309x elapsed=0:00:05.12    

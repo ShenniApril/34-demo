@@ -1,0 +1,8 @@
+{
+  "cases": 20,
+  "constant": true,
+  "luma_max_delta": 1,
+  "chroma_unchanged": true,
+  "shadows_highlights_unchanged": true,
+  "complete_frames": true
+}

@@ -1,0 +1,1 @@
+192 scalar/AVX2 bit-exact cases passed. Includes SIMD boundary tails, extrema, and 1080p.

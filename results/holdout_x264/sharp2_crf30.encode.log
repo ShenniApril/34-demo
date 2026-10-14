@@ -1,0 +1,38 @@
+[in#0/rawvideo @ 0000028b291d6e40] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#0/rawvideo @ 0000028b291d6e40] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:01.60, start: 0.000000, bitrate: 2985984 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+[libx264 @ 0000028b2927f200] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000028b2927f200] profile High, level 5.1, 4:2:0, 8-bit
+[libx264 @ 0000028b2927f200] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=4 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=120 keyint_min=61 scenecut=0 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=30.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'sharp2_crf30.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080, q=2-31, 120 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.52    frame=   25 fps= 24 q=40.0 size=       0KiB time=00:00:00.19 bitrate=   2.0kbits/s speed=0.185x elapsed=0:00:01.03    frame=   65 fps= 42 q=40.0 size=       0KiB time=00:00:00.52 bitrate=   0.7kbits/s speed=0.338x elapsed=0:00:01.55    frame=  102 fps= 49 q=40.0 size=     256KiB time=00:00:00.83 bitrate=2517.0kbits/s speed=0.403x elapsed=0:00:02.06    frame=  141 fps= 55 q=40.0 size=     256KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.58    frame=  182 fps= 59 q=40.0 size=     512KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:03.10    [out#0/mp4 @ 0000028b291f58c0] video:680KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.452539%
+frame=  192 fps= 59 q=-1.0 Lsize=     683KiB time=00:00:01.58 bitrate=3535.2kbits/s speed=0.487x elapsed=0:00:03.25    
+[libx264 @ 0000028b2927f200] frame I:2     Avg QP:35.92  size: 14176
+[libx264 @ 0000028b2927f200] frame P:48    Avg QP:37.95  size:  5926
+[libx264 @ 0000028b2927f200] frame B:142   Avg QP:38.61  size:  2697
+[libx264 @ 0000028b2927f200] consecutive B-frames:  1.0%  0.0%  3.1% 95.8%
+[libx264 @ 0000028b2927f200] mb I  I16..4: 33.2% 65.3%  1.6%
+[libx264 @ 0000028b2927f200] mb P  I16..4:  1.6%  4.6%  0.1%  P16..4: 20.7%  1.2%  0.7%  0.0%  0.0%    skip:71.2%
+[libx264 @ 0000028b2927f200] mb B  I16..4:  0.1%  0.3%  0.0%  B16..8: 23.4%  0.4%  0.0%  direct: 0.0%  skip:75.8%  L0:43.2% L1:56.5% BI: 0.3%
+[libx264 @ 0000028b2927f200] 8x8 transform intra:70.9% inter:98.1%
+[libx264 @ 0000028b2927f200] coded y,uvDC,uvAC intra: 19.9% 22.9% 0.5% inter: 2.2% 1.5% 0.0%
+[libx264 @ 0000028b2927f200] i16 v,h,dc,p: 31% 27%  6% 37%
+[libx264 @ 0000028b2927f200] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  9% 13% 29%  5% 16%  7% 13%  4%  4%
+[libx264 @ 0000028b2927f200] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 14% 13% 15%  5% 32%  8% 10%  2%  2%
+[libx264 @ 0000028b2927f200] i8c dc,h,v,p: 87%  8%  5%  1%
+[libx264 @ 0000028b2927f200] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0000028b2927f200] ref P L0: 48.4% 12.7% 27.7% 11.2%
+[libx264 @ 0000028b2927f200] ref B L0: 86.9% 10.6%  2.4%
+[libx264 @ 0000028b2927f200] ref B L1: 97.8%  2.2%
+[libx264 @ 0000028b2927f200] kb/s:3479.13

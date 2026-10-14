@@ -1,0 +1,24 @@
+# Large video inputs and generated intermediates (kept locally)
+*.yuv
+*.y4m
+*.mp4
+*.mkv
+*.hevc
+*.h264
+*.vvc
+*.ivf
+# Downloaded tools and rebuildable binaries
+ffmpeg-*-full_build/
+*.exe
+*.dll
+*.7z
+*.zip
+*.tar
+*.gz
+# Local caches and credentials
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.pem
+*.key

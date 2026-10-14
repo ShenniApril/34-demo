@@ -1,0 +1,69 @@
+{
+  "source": "Beauty original frames 256..447, 1080p120",
+  "codec": "libx265",
+  "preset": "medium",
+  "crf": 26,
+  "gop": 120,
+  "threads": 4,
+  "profile": "sharp:1",
+  "repeats": [
+    {
+      "repeat": 0,
+      "mode": "identity",
+      "preprocess_wall_seconds": 0.0,
+      "preprocess_compute_seconds": 0.0,
+      "encode_seconds": 8.395751999982167,
+      "total_seconds": 8.395751999982167
+    },
+    {
+      "repeat": 0,
+      "mode": "sharp",
+      "preprocess_wall_seconds": 0.4231586999958381,
+      "preprocess_compute_seconds": 0.0913168,
+      "encode_seconds": 8.147415500017814,
+      "total_seconds": 8.570574200013652
+    },
+    {
+      "repeat": 1,
+      "mode": "sharp",
+      "preprocess_wall_seconds": 0.4622627999924589,
+      "preprocess_compute_seconds": 0.0861064,
+      "encode_seconds": 7.339645600004587,
+      "total_seconds": 7.801908399997046
+    },
+    {
+      "repeat": 1,
+      "mode": "identity",
+      "preprocess_wall_seconds": 0.0,
+      "preprocess_compute_seconds": 0.0,
+      "encode_seconds": 7.889821400021901,
+      "total_seconds": 7.889821400021901
+    },
+    {
+      "repeat": 2,
+      "mode": "identity",
+      "preprocess_wall_seconds": 0.0,
+      "preprocess_compute_seconds": 0.0,
+      "encode_seconds": 7.872434500022791,
+      "total_seconds": 7.872434500022791
+    },
+    {
+      "repeat": 2,
+      "mode": "sharp",
+      "preprocess_wall_seconds": 0.6245136999932583,
+      "preprocess_compute_seconds": 0.129561,
+      "encode_seconds": 8.353001600014977,
+      "total_seconds": 8.977515300008235
+    }
+  ],
+  "median_total_change_percent": 8.628240938253185,
+  "baseline_range_seconds": [
+    7.872434500022791,
+    8.395751999982167
+  ],
+  "opt_range_seconds": [
+    7.801908399997046,
+    8.977515300008235
+  ],
+  "notice": "Single source and CRF; three alternating trials. Includes process startup and file I/O; not official in-memory timing or full statistical confidence interval."
+}

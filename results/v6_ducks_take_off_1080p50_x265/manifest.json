@@ -1,0 +1,42 @@
+{
+  "input": "D:\\shenni\\交大\\Hackthon\\34-demo\\datasets\\ducks_take_off_1080p50_prefix128.yuv",
+  "width": 1920,
+  "height": 1080,
+  "fps": 50.0,
+  "frames": 128,
+  "start_frame": 0,
+  "crfs": [
+    22,
+    26,
+    30,
+    34
+  ],
+  "preprocess_crf": null,
+  "preprocessor": "preprocess.exe",
+  "preprocessor_source": "preprocess.cpp",
+  "profiles": [
+    "identity:0",
+    "chroma:4"
+  ],
+  "codec": "libx265",
+  "preset": "medium",
+  "out": "results/v6_ducks_take_off_1080p50_x265",
+  "reuse_baseline": "results/v4_ducks_take_off_1080p50_x265",
+  "input_size": 398131200,
+  "input_mtime_ns": 1791911616632665300,
+  "ffmpeg": "ffmpeg version 2026-10-12-git-615b07170e-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "machine": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "preprocess_sha256": "bf9785cc50942ee03aa4e84e053f4b7974521f265dc34a589b996fd2b3f9434b",
+  "benchmark_sha256": "d6bc3474ef38b3b4499dcb3a799ccfbd9e28550931202635cdf1942b3190a67e",
+  "metric_models": [
+    "vmaf_v0.6.1",
+    "vmaf_v0.6.1neg"
+  ],
+  "threads": 4,
+  "gop": 120,
+  "quality_mode": "crf",
+  "metric_pixel_format": "yuv420p",
+  "vvc_conversion": null,
+  "preprocess_source_sha256": "d20c790a9a894497429b9a3107fec265cd84dd4a50145b0372df31d783fbf121"
+}

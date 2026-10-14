@@ -1,0 +1,237 @@
+[
+  {
+    "profile": "chroma:16",
+    "psnr_pchip": {
+      "percent": -0.14073305085942756,
+      "quality_min": 36.629745,
+      "quality_max": 39.017688
+    },
+    "psnr_cubic": {
+      "percent": -0.1133063330392274,
+      "quality_min": 36.629745,
+      "quality_max": 39.017688
+    },
+    "psnr_y_pchip": {
+      "percent": 0.11938855888783376,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "psnr_y_cubic": {
+      "percent": 0.13068122767686416,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "vmaf_pchip": {
+      "percent": 0.04149337579579845,
+      "quality_min": 47.408659,
+      "quality_max": 79.834616
+    },
+    "vmaf_cubic": {
+      "percent": -0.023359693697988463,
+      "quality_min": 47.408659,
+      "quality_max": 79.834616
+    },
+    "vmaf_neg_pchip": {
+      "percent": -0.0570538254280011,
+      "quality_min": 45.740151,
+      "quality_max": 78.287201
+    },
+    "vmaf_neg_cubic": {
+      "percent": -0.09866050702423662,
+      "quality_min": 45.740151,
+      "quality_max": 78.287201
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": true,
+    "vmaf_gain": false,
+    "total_wall_change_percent": 54.041289062546525
+  },
+  {
+    "profile": "hybrid:2",
+    "psnr_pchip": {
+      "percent": 0.2648318629402226,
+      "quality_min": 36.628707,
+      "quality_max": 39.017688
+    },
+    "psnr_cubic": {
+      "percent": 0.2742152239160548,
+      "quality_min": 36.628707,
+      "quality_max": 39.017688
+    },
+    "psnr_y_pchip": {
+      "percent": 0.49228742020653754,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "psnr_y_cubic": {
+      "percent": 0.4890735312870211,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "vmaf_pchip": {
+      "percent": -0.0717009201249379,
+      "quality_min": 47.661065,
+      "quality_max": 79.834616
+    },
+    "vmaf_cubic": {
+      "percent": -0.10855276796087135,
+      "quality_min": 47.661065,
+      "quality_max": 79.834616
+    },
+    "vmaf_neg_pchip": {
+      "percent": 0.007291043154016621,
+      "quality_min": 45.918253,
+      "quality_max": 78.287201
+    },
+    "vmaf_neg_cubic": {
+      "percent": -0.017446038855358226,
+      "quality_min": 45.918253,
+      "quality_max": 78.287201
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": false,
+    "vmaf_gain": true,
+    "total_wall_change_percent": 70.38415551850059
+  },
+  {
+    "profile": "hybrid:4",
+    "psnr_pchip": {
+      "percent": 0.9662145538908931,
+      "quality_min": 36.628707,
+      "quality_max": 39.017688
+    },
+    "psnr_cubic": {
+      "percent": 1.0320148348966753,
+      "quality_min": 36.628707,
+      "quality_max": 39.017688
+    },
+    "psnr_y_pchip": {
+      "percent": 1.2098951442043677,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "psnr_y_cubic": {
+      "percent": 1.279969745471781,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "vmaf_pchip": {
+      "percent": -2.2400755357125055,
+      "quality_min": 48.122958,
+      "quality_max": 79.834616
+    },
+    "vmaf_cubic": {
+      "percent": -2.220980757900253,
+      "quality_min": 48.122958,
+      "quality_max": 79.834616
+    },
+    "vmaf_neg_pchip": {
+      "percent": -1.7419983394793532,
+      "quality_min": 46.416012,
+      "quality_max": 78.287201
+    },
+    "vmaf_neg_cubic": {
+      "percent": -1.7345015813267681,
+      "quality_min": 46.416012,
+      "quality_max": 78.287201
+    },
+    "passes_psnr_all": false,
+    "passes_psnr_y": false,
+    "vmaf_gain": true,
+    "total_wall_change_percent": 72.56329922916758
+  },
+  {
+    "profile": "sharp:2",
+    "psnr_pchip": {
+      "percent": -0.024528851600859988,
+      "quality_min": 36.628707,
+      "quality_max": 39.017688
+    },
+    "psnr_cubic": {
+      "percent": -0.0321470467889114,
+      "quality_min": 36.628707,
+      "quality_max": 39.017688
+    },
+    "psnr_y_pchip": {
+      "percent": 0.04993356283804081,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "psnr_y_cubic": {
+      "percent": 0.05947664218692005,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "vmaf_pchip": {
+      "percent": -0.5662268006440968,
+      "quality_min": 47.785112,
+      "quality_max": 79.834616
+    },
+    "vmaf_cubic": {
+      "percent": -0.5892122841226092,
+      "quality_min": 47.785112,
+      "quality_max": 79.834616
+    },
+    "vmaf_neg_pchip": {
+      "percent": -0.47384039366577785,
+      "quality_min": 46.070132,
+      "quality_max": 78.287201
+    },
+    "vmaf_neg_cubic": {
+      "percent": -0.4815483568159012,
+      "quality_min": 46.070132,
+      "quality_max": 78.287201
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": true,
+    "vmaf_gain": true,
+    "total_wall_change_percent": 28.821341932882483
+  },
+  {
+    "profile": "sharp:4",
+    "psnr_pchip": {
+      "percent": 1.3218091162110523,
+      "quality_min": 36.628707,
+      "quality_max": 39.017688
+    },
+    "psnr_cubic": {
+      "percent": 1.4015212175952427,
+      "quality_min": 36.628707,
+      "quality_max": 39.017688
+    },
+    "psnr_y_pchip": {
+      "percent": 1.1999960893929311,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "psnr_y_cubic": {
+      "percent": 1.2873039568391478,
+      "quality_min": 35.737079,
+      "quality_max": 38.622479
+    },
+    "vmaf_pchip": {
+      "percent": -0.590355938488884,
+      "quality_min": 47.55669,
+      "quality_max": 79.834616
+    },
+    "vmaf_cubic": {
+      "percent": -0.5026784967989509,
+      "quality_min": 47.55669,
+      "quality_max": 79.834616
+    },
+    "vmaf_neg_pchip": {
+      "percent": -0.20154114782498822,
+      "quality_min": 45.815592,
+      "quality_max": 78.287201
+    },
+    "vmaf_neg_cubic": {
+      "percent": -0.1171162333021629,
+      "quality_min": 45.815592,
+      "quality_max": 78.287201
+    },
+    "passes_psnr_all": false,
+    "passes_psnr_y": false,
+    "vmaf_gain": true,
+    "total_wall_change_percent": 33.83246345234498
+  }
+]

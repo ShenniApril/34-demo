@@ -1,0 +1,30 @@
+[
+  {
+    "name": "foreman_cif",
+    "source_url": "https://media.xiph.org/video/derf/y4m/foreman_cif.y4m",
+    "source_page": "https://media.xiph.org/video/derf/",
+    "width": 352,
+    "height": 288,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30000/1001",
+    "frames": 300,
+    "download_sha256": "b0e3c35eff9fe1da91521a02eb9f0e3ef4bc5aec341ecef1567cd87f1711267b",
+    "raw_sha256": "eedf1717891590aa3aa8c55e964f9dc4be3051833e783705f3a33adb9fe63e93",
+    "conversion": "FFmpeg -c:v copy -f rawvideo (strip Y4M container; no resampling)",
+    "notice": "Xiph lists publicly hosted sequences believed freely redistributable, subject to original restrictions. Some source FPS values may be inferred; this experiment follows the Y4M header. Not a guaranteed license for every use."
+  },
+  {
+    "name": "mobile_cif",
+    "source_url": "https://media.xiph.org/video/derf/y4m/mobile_cif.y4m",
+    "source_page": "https://media.xiph.org/video/derf/",
+    "width": 352,
+    "height": 288,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30000/1001",
+    "frames": 300,
+    "download_sha256": "8b32924ea00ef3bd52f7ddafd3ceb55d2bb331610b59957c5c3cc9628f9e0d90",
+    "raw_sha256": "bd6eccbaf751c1f7730631dfc775af6cc33ec5193f7140704d10a47afca51c41",
+    "conversion": "FFmpeg -c:v copy -f rawvideo (strip Y4M container; no resampling)",
+    "notice": "Xiph lists publicly hosted sequences believed freely redistributable, subject to original restrictions. Some source FPS values may be inferred; this experiment follows the Y4M header. Not a guaranteed license for every use."
+  }
+]

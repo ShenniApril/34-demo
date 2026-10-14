@@ -1,0 +1,42 @@
+[
+  {
+    "point": 22,
+    "preprocess_crf": 22,
+    "bytes": 597196800,
+    "candidate_sha256": "7ee76bf152d26146c4cb290e83c239170eb84dfa9660640d447ab7da7ddff6cf",
+    "original_processed_sha256": "7ee76bf152d26146c4cb290e83c239170eb84dfa9660640d447ab7da7ddff6cf",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_holdout_x265\\balanced2_crf22.row.json",
+    "original_movie_sha256": "63a3ce7dafcd060372c51678886475f6076ea7e9ccb15c66aaf23c41d5571eb5"
+  },
+  {
+    "point": 26,
+    "preprocess_crf": 26,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_holdout_x265\\balanced2_crf26.row.json",
+    "original_movie_sha256": "b34e46d708ed46aa328f59fa3b74eb73a5f9224d0dceeabc0eeb9acadd700e42"
+  },
+  {
+    "point": 30,
+    "preprocess_crf": 30,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_holdout_x265\\balanced2_crf30.row.json",
+    "original_movie_sha256": "f482e5f29bba8d13fda90bdda1f6818e6355d63f46011848a4c3f1f1704df165"
+  },
+  {
+    "point": 34,
+    "preprocess_crf": 34,
+    "bytes": 597196800,
+    "candidate_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "original_processed_sha256": "aabc27b579915004f2672c2bbbb0e2a3de0a3e038e8fef045ff0b1d941a7961e",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_holdout_x265\\balanced2_crf34.row.json",
+    "original_movie_sha256": "a22719c034ee47417eeb86b075d5e61946fa074500726bda11a54aa359fae5a7"
+  }
+]

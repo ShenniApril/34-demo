@@ -1,0 +1,14 @@
+{
+  "base": {
+    "frames": 600,
+    "psnr_from_rounded_mse": 38.29693159349718,
+    "vmaf": 69.163722,
+    "container_bytes": 1616182
+  },
+  "opt": {
+    "frames": 600,
+    "psnr_from_rounded_mse": 38.36003344952003,
+    "vmaf": 68.754333,
+    "container_bytes": 1565614
+  }
+}

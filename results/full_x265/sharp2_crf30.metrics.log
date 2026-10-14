@@ -1,0 +1,36 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'sharp2_crf30.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf63.9.100
+  Duration: 00:00:05.00, start: 0.000000, bitrate: 1995 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv, progressive), 1920x1080, 1979 kb/s, 120 fps, 120 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.18.101 libx265
+[in#1/rawvideo @ 000001c355e85840] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#1/rawvideo @ 000001c355e85840] Estimating duration from bitrate, this may be inaccurate
+Input #1, rawvideo, from 'reference.yuv':
+  Duration: 00:00:05.00, start: 0.000000, bitrate: 2985984 kb/s
+  Stream #1:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 (hevc) -> settb:default
+  Stream #1:0 (rawvideo) -> settb:default
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+  libvmaf:default -> Stream #0:1 (wrapped_avframe)
+[graph 0 input from stream 1:0 @ 000001c355da8f00] Input has no chroma sample location, assuming left
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, progressive), 1920x1080, q=2-31, 200 kb/s, 120 fps, 120 tbn (default)
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+  Stream #0:1: Video: wrapped_avframe, yuv420p(tv, progressive), 1920x1080, q=2-31, 200 kb/s, 120 fps, 120 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+frame=   16 fps=0.0 q=-0.0 q=-0.0 size=N/A time=00:00:00.13 bitrate=N/A speed=0.262x elapsed=0:00:00.50    frame=   29 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:00.24 bitrate=N/A speed=0.236x elapsed=0:00:01.02    frame=   43 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:00.35 bitrate=N/A speed=0.233x elapsed=0:00:01.53    frame=   56 fps= 27 q=-0.0 q=-0.0 size=N/A time=00:00:00.46 bitrate=N/A speed=0.226x elapsed=0:00:02.06    frame=   69 fps= 27 q=-0.0 q=-0.0 size=N/A time=00:00:00.57 bitrate=N/A speed=0.224x elapsed=0:00:02.57    frame=   83 fps= 27 q=-0.0 q=-0.0 size=N/A time=00:00:00.69 bitrate=N/A speed=0.223x elapsed=0:00:03.09    frame=   98 fps= 27 q=-0.0 q=-0.0 size=N/A time=00:00:00.81 bitrate=N/A speed=0.226x elapsed=0:00:03.60    frame=  111 fps= 27 q=-0.0 q=-0.0 size=N/A time=00:00:00.92 bitrate=N/A speed=0.224x elapsed=0:00:04.12    frame=  127 fps= 27 q=-0.0 q=-0.0 size=N/A time=00:00:01.05 bitrate=N/A speed=0.228x elapsed=0:00:04.64    frame=  141 fps= 27 q=-0.0 q=-0.0 size=N/A time=00:00:01.17 bitrate=N/A speed=0.228x elapsed=0:00:05.15    frame=  156 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:01.30 bitrate=N/A speed=0.229x elapsed=0:00:05.67    frame=  171 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:01.42 bitrate=N/A speed=0.23x elapsed=0:00:06.18    frame=  186 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:01.55 bitrate=N/A speed=0.231x elapsed=0:00:06.70    frame=  200 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:01.66 bitrate=N/A speed=0.231x elapsed=0:00:07.21    frame=  215 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:01.79 bitrate=N/A speed=0.232x elapsed=0:00:07.73    frame=  229 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:01.90 bitrate=N/A speed=0.231x elapsed=0:00:08.24    frame=  244 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:02.03 bitrate=N/A speed=0.232x elapsed=0:00:08.76    frame=  259 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:02.15 bitrate=N/A speed=0.233x elapsed=0:00:09.27    frame=  274 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:02.28 bitrate=N/A speed=0.233x elapsed=0:00:09.79    frame=  289 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:02.40 bitrate=N/A speed=0.234x elapsed=0:00:10.30    frame=  304 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:02.53 bitrate=N/A speed=0.234x elapsed=0:00:10.83    frame=  318 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:02.65 bitrate=N/A speed=0.234x elapsed=0:00:11.33    frame=  332 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:02.76 bitrate=N/A speed=0.233x elapsed=0:00:11.85    frame=  347 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:02.89 bitrate=N/A speed=0.234x elapsed=0:00:12.37    frame=  361 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:03.00 bitrate=N/A speed=0.233x elapsed=0:00:12.89    frame=  377 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:03.14 bitrate=N/A speed=0.234x elapsed=0:00:13.41    frame=  392 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:03.26 bitrate=N/A speed=0.235x elapsed=0:00:13.92    frame=  406 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:03.38 bitrate=N/A speed=0.234x elapsed=0:00:14.44    frame=  420 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:03.50 bitrate=N/A speed=0.234x elapsed=0:00:14.94    frame=  435 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:03.62 bitrate=N/A speed=0.234x elapsed=0:00:15.47    frame=  451 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:03.75 bitrate=N/A speed=0.235x elapsed=0:00:15.98    frame=  464 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:03.86 bitrate=N/A speed=0.234x elapsed=0:00:16.49    frame=  479 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:03.99 bitrate=N/A speed=0.235x elapsed=0:00:17.01    frame=  494 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:04.11 bitrate=N/A speed=0.235x elapsed=0:00:17.52    frame=  508 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:04.23 bitrate=N/A speed=0.235x elapsed=0:00:18.04    frame=  524 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:04.36 bitrate=N/A speed=0.235x elapsed=0:00:18.57    frame=  539 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:04.49 bitrate=N/A speed=0.235x elapsed=0:00:19.08    frame=  553 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:04.60 bitrate=N/A speed=0.235x elapsed=0:00:19.60    frame=  569 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:04.74 bitrate=N/A speed=0.236x elapsed=0:00:20.12    frame=  583 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:04.85 bitrate=N/A speed=0.235x elapsed=0:00:20.64    frame=  598 fps= 28 q=-0.0 q=-0.0 size=N/A time=00:00:04.98 bitrate=N/A speed=0.235x elapsed=0:00:21.17    [Parsed_libvmaf_7 @ 000001c355da8a00] VMAF score: 63.943024
+[Parsed_libvmaf_7 @ 000001c355da8a00] VMAF score: 61.849436
+[Parsed_psnr_6 @ 000001c355da8300] PSNR y:37.246780 u:38.621610 v:40.447040 average:37.862209 min:37.127730 max:38.878058
+[out#0/null @ 000001c355dc54c0] video:497KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  600 fps= 28 q=-0.0 Lq=-0.0 size=N/A time=00:00:05.00 bitrate=N/A speed=0.232x elapsed=0:00:21.53    

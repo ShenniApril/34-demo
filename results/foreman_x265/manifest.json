@@ -1,0 +1,36 @@
+{
+  "input": "D:\\shenni\\交大\\Hackthon\\34-demo\\datasets\\foreman_cif.yuv",
+  "width": 352,
+  "height": 288,
+  "fps": 29.97002997003,
+  "frames": 300,
+  "start_frame": 0,
+  "crfs": [
+    22,
+    26,
+    30,
+    34
+  ],
+  "profiles": [
+    "identity:0",
+    "sharp:1",
+    "sharp:2"
+  ],
+  "codec": "libx265",
+  "preset": "medium",
+  "out": "results/foreman_x265",
+  "reuse_baseline": null,
+  "input_size": 45619200,
+  "input_mtime_ns": 1791899699488655900,
+  "ffmpeg": "ffmpeg version 2026-10-12-git-615b07170e-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "machine": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "preprocess_sha256": "5a8211caa66e4534a6e1f4cd19f4ec2c761eb27a147901c7f3c8d1e0e5f0e387",
+  "benchmark_sha256": "91e811e3f31430ce5d2e1bd3ebb585441ff5e85d8c1b1b60ab9fedea5c191377",
+  "metric_models": [
+    "vmaf_v0.6.1",
+    "vmaf_v0.6.1neg"
+  ],
+  "threads": 4,
+  "gop": 120
+}

@@ -1,0 +1,74 @@
+{
+  "Beauty": [
+    {
+      "frame": 0,
+      "mean_gradient": 8.028641010802469,
+      "strong_fraction": 0.013285108024691359,
+      "dense_tile_fraction": 0.1
+    },
+    {
+      "frame": 256,
+      "mean_gradient": 7.38718074845679,
+      "strong_fraction": 0.008758680555555556,
+      "dense_tile_fraction": 0.08075980392156863
+    },
+    {
+      "frame": 300,
+      "mean_gradient": 7.283199749228395,
+      "strong_fraction": 0.005988618827160494,
+      "dense_tile_fraction": 0.058333333333333334
+    },
+    {
+      "frame": 447,
+      "mean_gradient": 7.175720968364198,
+      "strong_fraction": 0.008572048611111112,
+      "dense_tile_fraction": 0.06556372549019608
+    },
+    {
+      "frame": 599,
+      "mean_gradient": 6.773791956018519,
+      "strong_fraction": 0.0031389853395061727,
+      "dense_tile_fraction": 0.028799019607843136
+    }
+  ],
+  "Foreman": [
+    {
+      "frame": 0,
+      "mean_gradient": 16.4681976010101,
+      "strong_fraction": 0.11979166666666667,
+      "dense_tile_fraction": 0.5454545454545454
+    },
+    {
+      "frame": 149,
+      "mean_gradient": 15.92739898989899,
+      "strong_fraction": 0.12066958648989899,
+      "dense_tile_fraction": 0.5202020202020202
+    },
+    {
+      "frame": 299,
+      "mean_gradient": 27.600477430555557,
+      "strong_fraction": 0.31514362373737376,
+      "dense_tile_fraction": 0.797979797979798
+    }
+  ],
+  "Mobile": [
+    {
+      "frame": 0,
+      "mean_gradient": 52.31680082070707,
+      "strong_fraction": 0.47077217487373735,
+      "dense_tile_fraction": 0.9444444444444444
+    },
+    {
+      "frame": 149,
+      "mean_gradient": 55.12247474747475,
+      "strong_fraction": 0.5085523200757576,
+      "dense_tile_fraction": 0.9696969696969697
+    },
+    {
+      "frame": 299,
+      "mean_gradient": 53.720022490530305,
+      "strong_fraction": 0.48316169507575757,
+      "dense_tile_fraction": 0.9696969696969697
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "input": "D:\\shenni\\交大\\Hackthon\\34-demo\\datasets\\foreman_cif.yuv",
+  "width": 352,
+  "height": 288,
+  "fps": 29.97002997003,
+  "frames": 300,
+  "start_frame": 0,
+  "crfs": [
+    22,
+    26,
+    30,
+    34
+  ],
+  "preprocess_crf": null,
+  "profiles": [
+    "identity:0",
+    "sharp:1",
+    "perceptual:2",
+    "balanced:2"
+  ],
+  "codec": "libx265",
+  "preset": "medium",
+  "out": "results/v2_foreman_x265",
+  "reuse_baseline": "results/foreman_x265",
+  "input_size": 45619200,
+  "input_mtime_ns": 1791899699488655900,
+  "ffmpeg": "ffmpeg version 2026-10-12-git-615b07170e-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "machine": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "preprocess_sha256": "69ea55dffd1fa48b926c8d41448da77eae1c388dab93657d50fd7a09cbc5cdb3",
+  "benchmark_sha256": "0c4739ef86d2f7c8c621ba4c0a6e4c861ec7206be7baa5914b4b51c7f39c9028",
+  "metric_models": [
+    "vmaf_v0.6.1",
+    "vmaf_v0.6.1neg"
+  ],
+  "threads": 4,
+  "gop": 120,
+  "quality_mode": "crf",
+  "metric_pixel_format": "yuv420p",
+  "vvc_conversion": null,
+  "preprocess_source_sha256": "d19048d19b96c60f0b08b245253485af6564a2f1450f58887cf4ecbd84a035c0"
+}

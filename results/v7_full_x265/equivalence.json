@@ -1,0 +1,42 @@
+[
+  {
+    "point": 22,
+    "preprocess_crf": 22,
+    "bytes": 1866240000,
+    "candidate_sha256": "ccdb3be22bfe2750a2ee321eb021eadb5dc71e19e9837b2a902abdfb3b52d4f6",
+    "original_processed_sha256": "ccdb3be22bfe2750a2ee321eb021eadb5dc71e19e9837b2a902abdfb3b52d4f6",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_full_x265\\balanced2_crf22.row.json",
+    "original_movie_sha256": "ef219517726eccb8214f8312ecae575a22a546b978d5df49f22c822a0928592c"
+  },
+  {
+    "point": 26,
+    "preprocess_crf": 26,
+    "bytes": 1866240000,
+    "candidate_sha256": "fca1ee24cea91185c0252afa8f533c7d527e7352286b4d6ac82b9dd2b8540592",
+    "original_processed_sha256": "fca1ee24cea91185c0252afa8f533c7d527e7352286b4d6ac82b9dd2b8540592",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_full_x265\\balanced2_crf26.row.json",
+    "original_movie_sha256": "eafbee69ab29879d3c01e800a23f7fcb9aa633e672d9ab7f824a1178102ab970"
+  },
+  {
+    "point": 30,
+    "preprocess_crf": 30,
+    "bytes": 1866240000,
+    "candidate_sha256": "fca1ee24cea91185c0252afa8f533c7d527e7352286b4d6ac82b9dd2b8540592",
+    "original_processed_sha256": "fca1ee24cea91185c0252afa8f533c7d527e7352286b4d6ac82b9dd2b8540592",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_full_x265\\balanced2_crf30.row.json",
+    "original_movie_sha256": "a05f3426c01484f5563207b84244cf6a16559bc1081097a91f11552a5da68d2a"
+  },
+  {
+    "point": 34,
+    "preprocess_crf": 34,
+    "bytes": 1866240000,
+    "candidate_sha256": "fca1ee24cea91185c0252afa8f533c7d527e7352286b4d6ac82b9dd2b8540592",
+    "original_processed_sha256": "fca1ee24cea91185c0252afa8f533c7d527e7352286b4d6ac82b9dd2b8540592",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v2_full_x265\\balanced2_crf34.row.json",
+    "original_movie_sha256": "8f1aa82a306fe37d4e3f39a9f0f6128fa2b64d9f526241b0f284a6959e08bfac"
+  }
+]

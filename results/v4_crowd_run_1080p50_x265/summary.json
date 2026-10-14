@@ -1,0 +1,152 @@
+[
+  {
+    "profile": "balanced:2",
+    "psnr_pchip": {
+      "percent": 0.06526008982161233,
+      "quality_min": 29.105714,
+      "quality_max": 35.586166
+    },
+    "psnr_cubic": {
+      "percent": 0.06806383455393288,
+      "quality_min": 29.105714,
+      "quality_max": 35.586166
+    },
+    "psnr_y_pchip": {
+      "percent": 0.017521948501967286,
+      "quality_min": 27.802298,
+      "quality_max": 34.771175
+    },
+    "psnr_y_cubic": {
+      "percent": 0.02083126775087404,
+      "quality_min": 27.802298,
+      "quality_max": 34.771175
+    },
+    "vmaf_pchip": {
+      "percent": -0.0881330204598277,
+      "quality_min": 61.860805,
+      "quality_max": 95.30283
+    },
+    "vmaf_cubic": {
+      "percent": -0.048480016213222205,
+      "quality_min": 61.860805,
+      "quality_max": 95.30283
+    },
+    "vmaf_neg_pchip": {
+      "percent": 0.04074722885256971,
+      "quality_min": 60.338185,
+      "quality_max": 93.630055
+    },
+    "vmaf_neg_cubic": {
+      "percent": 0.05622897284280547,
+      "quality_min": 60.338185,
+      "quality_max": 93.630055
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": true,
+    "vmaf_gain": true,
+    "psnr_worst_percent": 0.06806383455393288,
+    "passes_psnr_robust": true,
+    "eligible_gain": true,
+    "total_wall_change_percent": 3.760349253958073
+  },
+  {
+    "profile": "context:2",
+    "psnr_pchip": {
+      "percent": 0.1663938542703073,
+      "quality_min": 29.105819,
+      "quality_max": 35.586166
+    },
+    "psnr_cubic": {
+      "percent": 0.1679098336421043,
+      "quality_min": 29.105819,
+      "quality_max": 35.586166
+    },
+    "psnr_y_pchip": {
+      "percent": 0.09362006907360013,
+      "quality_min": 27.802645,
+      "quality_max": 34.771175
+    },
+    "psnr_y_cubic": {
+      "percent": 0.09536771299063727,
+      "quality_min": 27.802645,
+      "quality_max": 34.771175
+    },
+    "vmaf_pchip": {
+      "percent": 0.045535406880514384,
+      "quality_min": 61.846393,
+      "quality_max": 95.30283
+    },
+    "vmaf_cubic": {
+      "percent": 0.08012720271986638,
+      "quality_min": 61.846393,
+      "quality_max": 95.30283
+    },
+    "vmaf_neg_pchip": {
+      "percent": 0.15964853386545402,
+      "quality_min": 60.324146,
+      "quality_max": 93.630055
+    },
+    "vmaf_neg_cubic": {
+      "percent": 0.18251696667615722,
+      "quality_min": 60.324146,
+      "quality_max": 93.630055
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": true,
+    "vmaf_gain": false,
+    "psnr_worst_percent": 0.1679098336421043,
+    "passes_psnr_robust": true,
+    "eligible_gain": false,
+    "total_wall_change_percent": 6.879930145831326
+  },
+  {
+    "profile": "sharp:1",
+    "psnr_pchip": {
+      "percent": 0.06882941256308715,
+      "quality_min": 29.109786,
+      "quality_max": 35.586166
+    },
+    "psnr_cubic": {
+      "percent": 0.07019133657331998,
+      "quality_min": 29.109786,
+      "quality_max": 35.586166
+    },
+    "psnr_y_pchip": {
+      "percent": -0.006431595204340032,
+      "quality_min": 27.806687,
+      "quality_max": 34.771175
+    },
+    "psnr_y_cubic": {
+      "percent": -0.004865147020554319,
+      "quality_min": 27.806687,
+      "quality_max": 34.771175
+    },
+    "vmaf_pchip": {
+      "percent": -0.08464045706934481,
+      "quality_min": 61.913817,
+      "quality_max": 95.30283
+    },
+    "vmaf_cubic": {
+      "percent": -0.015349324077960334,
+      "quality_min": 61.913817,
+      "quality_max": 95.30283
+    },
+    "vmaf_neg_pchip": {
+      "percent": 0.0492937576797883,
+      "quality_min": 60.386014,
+      "quality_max": 93.630055
+    },
+    "vmaf_neg_cubic": {
+      "percent": 0.09914620200282638,
+      "quality_min": 60.386014,
+      "quality_max": 93.630055
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": true,
+    "vmaf_gain": true,
+    "psnr_worst_percent": 0.07019133657331998,
+    "passes_psnr_robust": true,
+    "eligible_gain": true,
+    "total_wall_change_percent": 7.801229207112326
+  }
+]

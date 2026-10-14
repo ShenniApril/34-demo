@@ -1,0 +1,16 @@
+{
+  "profile": "chroma:4",
+  "crf": 26,
+  "bitrate": 18563428.125,
+  "psnr_y": 32.186327,
+  "psnr": 33.021416,
+  "vmaf": 82.813902,
+  "vmaf_neg": 81.023893,
+  "encode_seconds": 12.134859699988738,
+  "preprocess_compute_seconds": 0.104799,
+  "preprocess_wall_seconds": 0.39529649997712113,
+  "frames": 128,
+  "quality_mode": "crf",
+  "quality_value": 26,
+  "preprocess_crf": 26
+}

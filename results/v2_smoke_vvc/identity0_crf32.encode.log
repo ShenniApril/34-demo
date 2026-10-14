@@ -1,0 +1,15 @@
+[in#0/rawvideo @ 000002a5a7e86240] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'reference.yuv':
+  Duration: 00:00:00.27, start: 0.000000, bitrate: 36458 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 352x288, 36458 kb/s, 29.97 tbr, 29.97 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> vvc (libvvenc))
+[libvvenc @ 000002a5a7f50940] libvvenc version: 1.15.0-dev
+Output #0, mp4, to 'identity0_crf32.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: vvc (vvc1 / 0x31637676), yuv420p10le(tv, progressive), 352x288, q=2-31, 29.97 fps, 30k tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libvvenc
+[out#0/mp4 @ 000002a5a7ea5880] video:11KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 10.781236%
+frame=    8 fps=0.0 q=-0.0 Lsize=      12KiB time=00:00:00.06 bitrate=1480.6kbits/s speed=0.266x elapsed=0:00:00.25    

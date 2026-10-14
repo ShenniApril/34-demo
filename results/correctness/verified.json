@@ -1,0 +1,10 @@
+{
+  "identity": true,
+  "constant": true,
+  "bounded_delta": true,
+  "chroma_keeps_luma": true,
+  "legacy_exact": true,
+  "same_path_guard": true,
+  "partial_frame_guard": true,
+  "bdrate_analytic": true
+}

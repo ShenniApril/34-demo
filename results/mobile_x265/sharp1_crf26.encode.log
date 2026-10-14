@@ -1,0 +1,16 @@
+[in#0/rawvideo @ 00000170e5566400] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:10.01, start: 0.000000, bitrate: 36458 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 352x288, 36458 kb/s, 29.97 tbr, 29.97 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Output #0, mp4, to 'sharp1_crf26.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), yuv420p(tv, progressive), 352x288, q=2-31, 29.97 fps, 30k tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libx265
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   78 fps=0.0 q=27.4 size=       0KiB time=00:00:02.53 bitrate=   0.1kbits/s speed=4.87x elapsed=0:00:00.52    frame=  159 fps=154 q=32.5 size=     512KiB time=00:00:05.23 bitrate= 800.7kbits/s speed=5.09x elapsed=0:00:01.02    frame=  259 fps=168 q=34.4 size=     768KiB time=00:00:08.57 bitrate= 733.7kbits/s speed=5.55x elapsed=0:00:01.54    [out#0/mp4 @ 00000170e5582e80] video:862KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 0.805647%
+frame=  300 fps=175 q=34.5 Lsize=     869KiB time=00:00:09.94 bitrate= 715.6kbits/s speed=5.78x elapsed=0:00:01.71    

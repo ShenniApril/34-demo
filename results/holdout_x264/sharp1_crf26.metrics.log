@@ -1,0 +1,36 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'sharp1_crf26.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.9.100
+  Duration: 00:00:01.60, start: 0.000000, bitrate: 5672 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 5657 kb/s, 120 fps, 120 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.18.101 libx264
+[in#1/rawvideo @ 0000015b8294d2c0] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#1/rawvideo @ 0000015b8294d2c0] Estimating duration from bitrate, this may be inaccurate
+Input #1, rawvideo, from 'reference.yuv':
+  Duration: 00:00:01.60, start: 0.000000, bitrate: 2985984 kb/s
+  Stream #1:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 (h264) -> settb:default
+  Stream #1:0 (rawvideo) -> settb:default
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+  libvmaf:default -> Stream #0:1 (wrapped_avframe)
+[graph 0 input from stream 1:0 @ 0000015b82931b00] Input has no chroma sample location, assuming left
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: wrapped_avframe, yuv420p(progressive), 1920x1080, q=2-31, 200 kb/s, 120 fps, 120 tbn (default)
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+  Stream #0:1: Video: wrapped_avframe, yuv420p(progressive), 1920x1080, q=2-31, 200 kb/s, 120 fps, 120 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+frame=   19 fps=0.0 q=-0.0 q=-0.0 size=N/A time=00:00:00.15 bitrate=N/A speed=0.308x elapsed=0:00:00.51    frame=   35 fps= 34 q=-0.0 q=-0.0 size=N/A time=00:00:00.29 bitrate=N/A speed=0.283x elapsed=0:00:01.02    frame=   50 fps= 32 q=-0.0 q=-0.0 size=N/A time=00:00:00.41 bitrate=N/A speed=0.268x elapsed=0:00:01.55    frame=   65 fps= 32 q=-0.0 q=-0.0 size=N/A time=00:00:00.54 bitrate=N/A speed=0.263x elapsed=0:00:02.06    frame=   83 fps= 32 q=-0.0 q=-0.0 size=N/A time=00:00:00.69 bitrate=N/A speed=0.267x elapsed=0:00:02.59    frame=  100 fps= 32 q=-0.0 q=-0.0 size=N/A time=00:00:00.83 bitrate=N/A speed=0.267x elapsed=0:00:03.11    frame=  115 fps= 32 q=-0.0 q=-0.0 size=N/A time=00:00:00.95 bitrate=N/A speed=0.264x elapsed=0:00:03.63    frame=  131 fps= 32 q=-0.0 q=-0.0 size=N/A time=00:00:01.09 bitrate=N/A speed=0.264x elapsed=0:00:04.13    frame=  147 fps= 32 q=-0.0 q=-0.0 size=N/A time=00:00:01.22 bitrate=N/A speed=0.263x elapsed=0:00:04.66    frame=  162 fps= 31 q=-0.0 q=-0.0 size=N/A time=00:00:01.35 bitrate=N/A speed=0.261x elapsed=0:00:05.16    frame=  179 fps= 31 q=-0.0 q=-0.0 size=N/A time=00:00:01.49 bitrate=N/A speed=0.262x elapsed=0:00:05.70    [Parsed_libvmaf_7 @ 0000015b82933400] VMAF score: 71.578053
+[Parsed_libvmaf_7 @ 0000015b82933400] VMAF score: 69.714472
+[Parsed_psnr_6 @ 0000015b82931900] PSNR y:37.904934 u:38.958624 v:41.080572 average:38.471728 min:38.010487 max:39.448620
+[out#0/null @ 0000015b828b2c00] video:159KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  192 fps= 30 q=-0.0 Lq=-0.0 size=N/A time=00:00:01.60 bitrate=N/A speed=0.252x elapsed=0:00:06.35    

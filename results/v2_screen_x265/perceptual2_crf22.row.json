@@ -1,0 +1,16 @@
+{
+  "profile": "perceptual:2",
+  "crf": 22,
+  "bitrate": 6590745.0,
+  "psnr_y": 38.620584,
+  "psnr": 39.016697,
+  "vmaf": 79.884444,
+  "vmaf_neg": 78.309466,
+  "encode_seconds": 1.6927180000056978,
+  "preprocess_compute_seconds": 0.282018,
+  "preprocess_wall_seconds": 0.4147792999865487,
+  "frames": 64,
+  "quality_mode": "crf",
+  "quality_value": 22,
+  "preprocess_crf": 22
+}

@@ -1,0 +1,17 @@
+[in#0/rawvideo @ 000002c4d08612c0] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#0/rawvideo @ 000002c4d08612c0] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:00.53, start: 0.000000, bitrate: 2985985 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Output #0, mp4, to 'balanced2_crf26.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), yuv420p(tv, progressive), 1920x1080, q=2-31, 120 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libx265
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   14 fps=0.0 q=37.0 size=       0KiB time=00:00:00.10 bitrate=   3.5kbits/s speed=0.198x elapsed=0:00:00.50    frame=   38 fps= 37 q=35.9 size=       0KiB time=00:00:00.30 bitrate=   1.2kbits/s speed=0.293x elapsed=0:00:01.02    [out#0/mp4 @ 000002c4d07e8540] video:230KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 1.701055%
+frame=   64 fps= 42 q=37.5 Lsize=     234KiB time=00:00:00.51 bitrate=3716.8kbits/s speed=0.341x elapsed=0:00:01.51    

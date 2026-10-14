@@ -1,0 +1,16 @@
+{
+  "profile": "guarded:2",
+  "crf": 26,
+  "bitrate": 18563428.125,
+  "psnr_y": 32.186327,
+  "psnr": 33.021416,
+  "vmaf": 82.813902,
+  "vmaf_neg": 81.023893,
+  "encode_seconds": 12.438032400008524,
+  "preprocess_compute_seconds": 0.104827,
+  "preprocess_wall_seconds": 0.37828890001401305,
+  "frames": 128,
+  "quality_mode": "crf",
+  "quality_value": 26,
+  "preprocess_crf": 26
+}

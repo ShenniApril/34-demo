@@ -1,0 +1,21 @@
+{
+  "cases": 160,
+  "bit_exact": true,
+  "modes": [
+    "perceptual",
+    "balanced"
+  ],
+  "crfs": [
+    0,
+    25,
+    26,
+    51
+  ],
+  "amounts": [
+    1,
+    2,
+    4,
+    16
+  ],
+  "includes_low_activity_and_1080p": true
+}

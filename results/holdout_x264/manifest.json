@@ -1,0 +1,36 @@
+{
+  "input": "D:\\shenni\\交大\\Hackthon\\34-demo\\Beauty_1920x1080_120fps_420_8bit_YUV.yuv",
+  "width": 1920,
+  "height": 1080,
+  "fps": 120,
+  "frames": 192,
+  "start_frame": 256,
+  "crfs": [
+    22,
+    26,
+    30,
+    34
+  ],
+  "profiles": [
+    "identity:0",
+    "sharp:1",
+    "sharp:2"
+  ],
+  "codec": "libx264",
+  "preset": "medium",
+  "out": "results/holdout_x264",
+  "reuse_baseline": null,
+  "input_size": 1866240000,
+  "input_mtime_ns": 1381160236314638400,
+  "ffmpeg": "ffmpeg version 2026-10-12-git-615b07170e-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "machine": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "preprocess_sha256": "5a8211caa66e4534a6e1f4cd19f4ec2c761eb27a147901c7f3c8d1e0e5f0e387",
+  "benchmark_sha256": "91e811e3f31430ce5d2e1bd3ebb585441ff5e85d8c1b1b60ab9fedea5c191377",
+  "metric_models": [
+    "vmaf_v0.6.1",
+    "vmaf_v0.6.1neg"
+  ],
+  "threads": 4,
+  "gop": 120
+}

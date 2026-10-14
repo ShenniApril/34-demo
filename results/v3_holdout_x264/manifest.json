@@ -1,0 +1,42 @@
+{
+  "input": "D:\\shenni\\交大\\Hackthon\\34-demo\\Beauty_1920x1080_120fps_420_8bit_YUV.yuv",
+  "width": 1920,
+  "height": 1080,
+  "fps": 120,
+  "frames": 192,
+  "start_frame": 256,
+  "crfs": [
+    22,
+    26,
+    30,
+    34
+  ],
+  "preprocess_crf": null,
+  "preprocessor": "preprocess_adaptive.exe",
+  "preprocessor_source": "preprocess_adaptive.cpp",
+  "profiles": [
+    "identity:0",
+    "adaptive:2"
+  ],
+  "codec": "libx264",
+  "preset": "medium",
+  "out": "results/v3_holdout_x264",
+  "reuse_baseline": "results/holdout_x264",
+  "input_size": 1866240000,
+  "input_mtime_ns": 1381160236314638400,
+  "ffmpeg": "ffmpeg version 2026-10-12-git-615b07170e-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "machine": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "preprocess_sha256": "7a3ff95b267ca8ad9801123776d5429b7b901bf71041dd3dad8c03a67ba25cb3",
+  "benchmark_sha256": "1820180beb5834436cbd7f422fa5c5edee470cbff3d8ded9a514f4d604a89f35",
+  "metric_models": [
+    "vmaf_v0.6.1",
+    "vmaf_v0.6.1neg"
+  ],
+  "threads": 4,
+  "gop": 120,
+  "quality_mode": "crf",
+  "metric_pixel_format": "yuv420p",
+  "vvc_conversion": null,
+  "preprocess_source_sha256": "543e81e806b91dc88e73f7adff7e5403b967dc61cfc85617c788416bd35fc4e2"
+}

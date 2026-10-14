@@ -1,0 +1,68 @@
+{
+  "source": "Beauty frames 256..447, 1080p120",
+  "codec": "libx265",
+  "preset": "medium",
+  "crf": 26,
+  "profile": "guarded:2",
+  "repeats": [
+    {
+      "repeat": 0,
+      "mode": "identity",
+      "preprocess_wall_seconds": 0.0,
+      "preprocess_compute_seconds": 0.0,
+      "encode_seconds": 6.470318400010001,
+      "total_seconds": 6.470318400010001
+    },
+    {
+      "repeat": 0,
+      "mode": "guarded",
+      "preprocess_wall_seconds": 0.5702549999987241,
+      "preprocess_compute_seconds": 0.196094,
+      "encode_seconds": 6.554438299994217,
+      "total_seconds": 7.124693299992941
+    },
+    {
+      "repeat": 1,
+      "mode": "guarded",
+      "preprocess_wall_seconds": 0.6506512000050861,
+      "preprocess_compute_seconds": 0.208655,
+      "encode_seconds": 6.602049499982968,
+      "total_seconds": 7.252700699988054
+    },
+    {
+      "repeat": 1,
+      "mode": "identity",
+      "preprocess_wall_seconds": 0.0,
+      "preprocess_compute_seconds": 0.0,
+      "encode_seconds": 6.53481159999501,
+      "total_seconds": 6.53481159999501
+    },
+    {
+      "repeat": 2,
+      "mode": "identity",
+      "preprocess_wall_seconds": 0.0,
+      "preprocess_compute_seconds": 0.0,
+      "encode_seconds": 6.691667600010987,
+      "total_seconds": 6.691667600010987
+    },
+    {
+      "repeat": 2,
+      "mode": "guarded",
+      "preprocess_wall_seconds": 0.6870344000053592,
+      "preprocess_compute_seconds": 0.210722,
+      "encode_seconds": 6.750823600013973,
+      "total_seconds": 7.437858000019332
+    }
+  ],
+  "median_total_change_percent": 10.985612806245125,
+  "baseline_range_seconds": [
+    6.470318400010001,
+    6.691667600010987
+  ],
+  "opt_range_seconds": [
+    7.124693299992941,
+    7.437858000019332
+  ],
+  "median_kernel_seconds": 0.208655,
+  "notice": "Three alternating trials after other encoding/download jobs completed. Includes startup and file I/O; one content and CRF, not official in-memory timing."
+}

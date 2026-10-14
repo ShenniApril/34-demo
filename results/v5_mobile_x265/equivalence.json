@@ -1,0 +1,42 @@
+[
+  {
+    "point": 22,
+    "preprocess_crf": 22,
+    "bytes": 45619200,
+    "candidate_sha256": "6c6553b0a09649fba980f72e1a460fe2f1d09dac2f969c7aee1d98533a93f0a5",
+    "original_processed_sha256": "6c6553b0a09649fba980f72e1a460fe2f1d09dac2f969c7aee1d98533a93f0a5",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v3_mobile_x265\\adaptive2_crf22.row.json",
+    "original_movie_sha256": "f6cd8436d686de48b2e8b31a78e45e7a30a51ccaea8b36b7e71683d22a9328e2"
+  },
+  {
+    "point": 26,
+    "preprocess_crf": 26,
+    "bytes": 45619200,
+    "candidate_sha256": "a924393308f8ac493f6064c95e9fdfcb999491e65410c739fa7e332755dbc60d",
+    "original_processed_sha256": "a924393308f8ac493f6064c95e9fdfcb999491e65410c739fa7e332755dbc60d",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v3_mobile_x265\\adaptive2_crf26.row.json",
+    "original_movie_sha256": "83411970471971c0ec7dda6f89a5bb527aaf7152d6c5e2d94a25232d13e63ff6"
+  },
+  {
+    "point": 30,
+    "preprocess_crf": 30,
+    "bytes": 45619200,
+    "candidate_sha256": "0fdc879ce93ba801556bfab0c4eddb2849cba2854f0864b497f94e2fa29c06e1",
+    "original_processed_sha256": "0fdc879ce93ba801556bfab0c4eddb2849cba2854f0864b497f94e2fa29c06e1",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v3_mobile_x265\\adaptive2_crf30.row.json",
+    "original_movie_sha256": "ce2235d690ec5e07fafdc48c01f3b53e6ab6ecbe941675a512046ee15e0669f1"
+  },
+  {
+    "point": 34,
+    "preprocess_crf": 34,
+    "bytes": 45619200,
+    "candidate_sha256": "3fb1842348197483465ade6a89033177f1a8602ce5dc29839ef961548d963915",
+    "original_processed_sha256": "3fb1842348197483465ade6a89033177f1a8602ce5dc29839ef961548d963915",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v3_mobile_x265\\adaptive2_crf34.row.json",
+    "original_movie_sha256": "a46ae1eee74e68231fb21bcca2c29b274db4771bb22124f56d54b298d830b64e"
+  }
+]

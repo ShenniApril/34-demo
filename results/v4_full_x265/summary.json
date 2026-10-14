@@ -1,0 +1,52 @@
+[
+  {
+    "profile": "context:2",
+    "psnr_pchip": {
+      "percent": -0.19137899477837558,
+      "quality_min": 36.794906,
+      "quality_max": 39.237986
+    },
+    "psnr_cubic": {
+      "percent": -0.22605765586774548,
+      "quality_min": 36.794906,
+      "quality_max": 39.237986
+    },
+    "psnr_y_pchip": {
+      "percent": -0.222470673303611,
+      "quality_min": 35.958065,
+      "quality_max": 38.914263
+    },
+    "psnr_y_cubic": {
+      "percent": -0.24381130170996207,
+      "quality_min": 35.958065,
+      "quality_max": 38.914263
+    },
+    "vmaf_pchip": {
+      "percent": -0.2833517863865444,
+      "quality_min": 50.885564,
+      "quality_max": 81.607999
+    },
+    "vmaf_cubic": {
+      "percent": -0.27257695535774973,
+      "quality_min": 50.885564,
+      "quality_max": 81.607999
+    },
+    "vmaf_neg_pchip": {
+      "percent": -0.24940605014856648,
+      "quality_min": 48.927022,
+      "quality_max": 79.841223
+    },
+    "vmaf_neg_cubic": {
+      "percent": -0.24813728663495171,
+      "quality_min": 48.927022,
+      "quality_max": 79.841223
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": true,
+    "vmaf_gain": true,
+    "psnr_worst_percent": -0.19137899477837558,
+    "passes_psnr_robust": true,
+    "eligible_gain": true,
+    "total_wall_change_percent": 9.496952420767713
+  }
+]

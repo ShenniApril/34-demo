@@ -1,0 +1,6 @@
+{
+  "cases": 144,
+  "bit_exact": true,
+  "includes_rounding_and_clipping": true,
+  "includes_odd_chroma_planes_and_1080p": true
+}

@@ -1,0 +1,36 @@
+[in#0 @ 000002089085c9c0] st: 0 edit list: 1 Missing key frame while searching for timestamp: 5005
+[in#0 @ 000002089085c9c0] st: 0 edit list 1 Cannot find an index entry before timestamp: 5005.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'identity0_crf32.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf63.9.100
+  Duration: 00:00:00.27, start: 0.000000, bitrate: 370 kb/s
+  Stream #0:0[0x1](und): Video: vvc (vvc1 / 0x31637676), yuv420p10le(progressive), 352x288, 334 kb/s, 29.97 fps, 29.97 tbr, 30k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.18.101 libvvenc
+[in#1/rawvideo @ 0000020890875200] Estimating duration from bitrate, this may be inaccurate
+Input #1, rawvideo, from 'reference.yuv':
+  Duration: 00:00:00.27, start: 0.000000, bitrate: 36458 kb/s
+  Stream #1:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 352x288, 36458 kb/s, 29.97 tbr, 29.97 tbn
+Stream mapping:
+  Stream #0:0 (vvc) -> scale:default
+  Stream #1:0 (rawvideo) -> settb:default
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+  libvmaf:default -> Stream #0:1 (wrapped_avframe)
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, progressive), 352x288, q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn (default)
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+  Stream #0:1: Video: wrapped_avframe, yuv420p(tv, progressive), 352x288, q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 wrapped_avframe
+[Parsed_libvmaf_9 @ 0000020890875dc0] VMAF score: 89.615712
+[Parsed_libvmaf_9 @ 0000020890875dc0] VMAF score: 87.963490
+[Parsed_psnr_8 @ 0000020890877bc0] PSNR y:36.342634 u:42.825934 v:44.196637 average:37.700845 min:36.850259 max:41.046148
+[out#0/null @ 00000208907e3ac0] video:7KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    8 fps=0.0 q=-0.0 Lq=-0.0 size=N/A time=00:00:00.26 bitrate=N/A speed=5.17x elapsed=0:00:00.05    

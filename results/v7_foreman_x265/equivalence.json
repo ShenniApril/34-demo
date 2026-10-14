@@ -1,0 +1,42 @@
+[
+  {
+    "point": 22,
+    "preprocess_crf": 22,
+    "bytes": 45619200,
+    "candidate_sha256": "b6cec646550acd1c25f08a5e9d75c0ca39d0a9c8bf1bd3fbf7964a8e61264ec6",
+    "original_processed_sha256": "b6cec646550acd1c25f08a5e9d75c0ca39d0a9c8bf1bd3fbf7964a8e61264ec6",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v3_foreman_x265\\adaptive2_crf22.row.json",
+    "original_movie_sha256": "6a93ef4378844d22837c30debed559346a4b61e9739ef432d2060736ab986711"
+  },
+  {
+    "point": 26,
+    "preprocess_crf": 26,
+    "bytes": 45619200,
+    "candidate_sha256": "4ae55438206475b86b14a8410b023e8feedd559caf4bc83128804f00810eaa47",
+    "original_processed_sha256": "4ae55438206475b86b14a8410b023e8feedd559caf4bc83128804f00810eaa47",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v3_foreman_x265\\adaptive2_crf26.row.json",
+    "original_movie_sha256": "1de6ca1914a357b254371fd5a4eb3852af058ccf388eec4a73c8e60357fa3a78"
+  },
+  {
+    "point": 30,
+    "preprocess_crf": 30,
+    "bytes": 45619200,
+    "candidate_sha256": "e9f7ea3c2074c45846b8c4c8bd8240c2824dce8954a598d985126c04c8184a5f",
+    "original_processed_sha256": "e9f7ea3c2074c45846b8c4c8bd8240c2824dce8954a598d985126c04c8184a5f",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v3_foreman_x265\\adaptive2_crf30.row.json",
+    "original_movie_sha256": "89ec321147dc0658892d22569ea0281a4b29c20bbd097e0f445dcdea3ef6a6e9"
+  },
+  {
+    "point": 34,
+    "preprocess_crf": 34,
+    "bytes": 45619200,
+    "candidate_sha256": "fd972d08ed42479dedb3619f3334b358ff568aa9fc8d08aafc59182e6e783eaa",
+    "original_processed_sha256": "fd972d08ed42479dedb3619f3334b358ff568aa9fc8d08aafc59182e6e783eaa",
+    "equal": true,
+    "original_row": "D:\\shenni\\\u4ea4\u5927\\Hackthon\\34-demo\\results\\v3_foreman_x265\\adaptive2_crf34.row.json",
+    "original_movie_sha256": "29f7d95eb5b9cafa2b0e3ac57cf8c40cb77347f2c4f13c55ffc69ac1ae256a0c"
+  }
+]

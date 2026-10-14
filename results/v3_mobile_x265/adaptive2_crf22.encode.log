@@ -1,0 +1,16 @@
+[in#0/rawvideo @ 00000279196159c0] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:10.01, start: 0.000000, bitrate: 36458 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 352x288, 36458 kb/s, 29.97 tbr, 29.97 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Output #0, mp4, to 'adaptive2_crf22.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: hevc (hev1 / 0x31766568), yuv420p(tv, progressive), 352x288, q=2-31, 29.97 fps, 30k tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libx265
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   50 fps=0.0 q=23.3 size=     256KiB time=00:00:01.60 bitrate=1309.6kbits/s speed=3.17x elapsed=0:00:00.50    frame=  106 fps=104 q=24.0 size=     512KiB time=00:00:03.47 bitrate=1208.8kbits/s speed=3.41x elapsed=0:00:01.01    frame=  169 fps=109 q=30.5 size=     768KiB time=00:00:05.57 bitrate=1129.1kbits/s speed=3.61x elapsed=0:00:01.54    frame=  242 fps=118 q=22.8 size=    1280KiB time=00:00:08.00 bitrate=1309.5kbits/s speed=3.89x elapsed=0:00:02.05    [out#0/mp4 @ 0000027919632c00] video:1501KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 0.463027%
+frame=  300 fps=126 q=30.7 Lsize=    1508KiB time=00:00:09.94 bitrate=1242.2kbits/s speed=4.17x elapsed=0:00:02.38    

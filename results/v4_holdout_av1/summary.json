@@ -1,0 +1,152 @@
+[
+  {
+    "profile": "context:2",
+    "psnr_pchip": {
+      "percent": -0.06374850595568192,
+      "quality_min": 39.179508,
+      "quality_max": 39.975015
+    },
+    "psnr_cubic": {
+      "percent": -0.07346213713750412,
+      "quality_min": 39.179508,
+      "quality_max": 39.975015
+    },
+    "psnr_y_pchip": {
+      "percent": -0.23908047249356773,
+      "quality_min": 38.798317,
+      "quality_max": 39.989992
+    },
+    "psnr_y_cubic": {
+      "percent": -0.2524644859962339,
+      "quality_min": 38.798317,
+      "quality_max": 39.989992
+    },
+    "vmaf_pchip": {
+      "percent": -1.8547194005620111,
+      "quality_min": 78.235719,
+      "quality_max": 89.641323
+    },
+    "vmaf_cubic": {
+      "percent": -1.8099532664581912,
+      "quality_min": 78.235719,
+      "quality_max": 89.641323
+    },
+    "vmaf_neg_pchip": {
+      "percent": -1.3771904482283486,
+      "quality_min": 76.713509,
+      "quality_max": 88.390368
+    },
+    "vmaf_neg_cubic": {
+      "percent": -1.352287025825205,
+      "quality_min": 76.713509,
+      "quality_max": 88.390368
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": true,
+    "vmaf_gain": true,
+    "psnr_worst_percent": -0.06374850595568192,
+    "passes_psnr_robust": true,
+    "eligible_gain": true,
+    "total_wall_change_percent": 26.326432157176605
+  },
+  {
+    "profile": "hybrid:2",
+    "psnr_pchip": {
+      "percent": -23.434992780963356,
+      "quality_min": 39.195265,
+      "quality_max": 39.975406
+    },
+    "psnr_cubic": {
+      "percent": -23.61138692777143,
+      "quality_min": 39.195265,
+      "quality_max": 39.975406
+    },
+    "psnr_y_pchip": {
+      "percent": -9.818211603975149,
+      "quality_min": 38.800073,
+      "quality_max": 39.99222
+    },
+    "psnr_y_cubic": {
+      "percent": -9.84768095966448,
+      "quality_min": 38.800073,
+      "quality_max": 39.99222
+    },
+    "vmaf_pchip": {
+      "percent": -11.800566262729653,
+      "quality_min": 78.317047,
+      "quality_max": 89.641323
+    },
+    "vmaf_cubic": {
+      "percent": -11.512457017312949,
+      "quality_min": 78.317047,
+      "quality_max": 89.641323
+    },
+    "vmaf_neg_pchip": {
+      "percent": -10.936348046403486,
+      "quality_min": 76.783982,
+      "quality_max": 88.390368
+    },
+    "vmaf_neg_cubic": {
+      "percent": -10.662229073712787,
+      "quality_min": 76.783982,
+      "quality_max": 88.390368
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": true,
+    "vmaf_gain": true,
+    "psnr_worst_percent": -9.818211603975149,
+    "passes_psnr_robust": true,
+    "eligible_gain": true,
+    "total_wall_change_percent": 56.791962154115595
+  },
+  {
+    "profile": "perceptual:2",
+    "psnr_pchip": {
+      "percent": -0.16313154026418075,
+      "quality_min": 39.181245,
+      "quality_max": 39.975406
+    },
+    "psnr_cubic": {
+      "percent": 0.21643093906120414,
+      "quality_min": 39.181245,
+      "quality_max": 39.975406
+    },
+    "psnr_y_pchip": {
+      "percent": -0.7682781045332141,
+      "quality_min": 38.799886,
+      "quality_max": 39.99222
+    },
+    "psnr_y_cubic": {
+      "percent": -0.7667990728488883,
+      "quality_min": 38.799886,
+      "quality_max": 39.99222
+    },
+    "vmaf_pchip": {
+      "percent": -2.4713619818900256,
+      "quality_min": 78.256289,
+      "quality_max": 89.641323
+    },
+    "vmaf_cubic": {
+      "percent": -2.4153069095271777,
+      "quality_min": 78.256289,
+      "quality_max": 89.641323
+    },
+    "vmaf_neg_pchip": {
+      "percent": -2.00426724213244,
+      "quality_min": 76.728437,
+      "quality_max": 88.390368
+    },
+    "vmaf_neg_cubic": {
+      "percent": -1.961083007982346,
+      "quality_min": 76.728437,
+      "quality_max": 88.390368
+    },
+    "passes_psnr_all": true,
+    "passes_psnr_y": true,
+    "vmaf_gain": true,
+    "psnr_worst_percent": 0.21643093906120414,
+    "passes_psnr_robust": true,
+    "eligible_gain": true,
+    "total_wall_change_percent": 25.432623791994114
+  }
+]

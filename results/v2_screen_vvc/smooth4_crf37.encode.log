@@ -1,0 +1,16 @@
+[in#0/rawvideo @ 0000020780355680] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[in#0/rawvideo @ 0000020780355680] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'processed.yuv':
+  Duration: 00:00:00.53, start: 0.000000, bitrate: 2985985 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 2985984 kb/s, 120 tbr, 120 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> vvc (libvvenc))
+[libvvenc @ 00000207803fd8c0] libvvenc version: 1.15.0-dev
+Output #0, mp4, to 'smooth4_crf37.mp4':
+  Metadata:
+    encoder         : Lavf63.9.100
+  Stream #0:0: Video: vvc (vvc1 / 0x31637676), yuv420p10le(tv, progressive), 1920x1080, q=2-31, 120 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc63.18.101 libvvenc
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.51    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:01.03    frame=    4 fps=2.6 q=-0.0 size=       0KiB time=-00:00:00.01 bitrate=N/A speed=N/A elapsed=0:00:01.55    frame=   33 fps= 16 q=-0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.05    frame=   36 fps= 14 q=-0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.56    frame=   56 fps= 18 q=-0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:03.08    [out#0/mp4 @ 0000020780372c40] video:73KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 2.592300%
+frame=   64 fps= 20 q=-0.0 Lsize=      75KiB time=00:00:00.48 bitrate=1266.2kbits/s speed=0.154x elapsed=0:00:03.14    
